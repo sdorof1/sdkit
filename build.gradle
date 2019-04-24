@@ -1,0 +1,24 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    api 'org.apache.commons:commons-math3:3.6.1'
+
+    api 'net.java.dev.jna:jna:5.1.0'
+    api 'net.java.dev.jna:jna-platform:5.1.0'
+
+    implementation 'com.google.code.gson:gson:2.6.1'
+
+    implementation 'org.apache.logging.log4j:log4j-api:2.5'
+    implementation 'org.apache.logging.log4j:log4j-core:2.5'
+
+
+    implementation 'com.google.guava:guava:26.0-jre'
+
+    testImplementation 'junit:junit:4.12'
+}
